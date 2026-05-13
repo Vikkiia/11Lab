@@ -14,6 +14,7 @@ function readFormData(formNode) {
   };
 }
 
+
 function setError(fieldName, message) {
   const field = document.querySelector(`#${fieldName}`);
   const errorNode = document.querySelector(`#${fieldName}-error`);
